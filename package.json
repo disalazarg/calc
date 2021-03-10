@@ -1,0 +1,19 @@
+{
+  "name": "calc",
+  "version": "0.1.0-alpha",
+  "description": "Simple JSON API for basic arithmetic",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jasmine 'spec/**/*.spec.js'",
+    "cover": "nyc npm run test && nyc check-coverage"
+  },
+  "author": "Daniel Salazar <disalazarg@gmail.com>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "jasmine": "^3.6.4",
+    "nyc": "^15.1.0"
+  },
+  "dependencies": {
+    "jasmine-spec-reporter": "^6.0.0"
+  }
+}
